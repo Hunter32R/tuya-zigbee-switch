@@ -2,11 +2,11 @@
   {
     "fileName": "1141-aa04-ffffffff-tlc_switch-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 125714,
-    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/6333b8ee3ad4ba4e7c531ea5c080d7eec7d2ea40/bin/TS0011_END_DEVICE/1141-aa04-ffffffff-tlc_switch-forced.zigbee",
+    "fileSize": 125698,
+    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/refs/heads/main/bin/TS0011_END_DEVICE/1141-aa04-ffffffff-tlc_switch-forced.zigbee",
     "imageType": 43524,
     "manufacturerCode": 4417,
-    "sha512": "f99ce3c90ff2fd1d97976eae77b20eb5d45feb935d6a25ca8021fe4e37ceffd7a2577a7149816b17dbf5000ed1f7fa04d93e66ffa3d6ca1aecf44650bce2c307",
+    "sha512": "54bb7aaa6c02501a9fd97fab621f7199defcc3595389a14095b407251b6a6ac6b9bce06c8981b626d3000ee8f403c71866327c2648bd61373f1b7a2f1da66a37",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_qmi1cfuq",
@@ -18,11 +18,11 @@
   {
     "fileName": "1141-aa01-ffffffff-tlc_switch-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 125730,
-    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/6333b8ee3ad4ba4e7c531ea5c080d7eec7d2ea40/bin/TS0012_END_DEVICE/1141-aa01-ffffffff-tlc_switch-forced.zigbee",
+    "fileSize": 125714,
+    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/refs/heads/main/bin/TS0012_END_DEVICE/1141-aa01-ffffffff-tlc_switch-forced.zigbee",
     "imageType": 43521,
     "manufacturerCode": 4417,
-    "sha512": "16155c917ef6e74ff09f6840782ba4f3ceb688a86dfe50b820e0ffdadae2415b6c4246c78fe612c18c0d5810c067f9f1c9e7acfdffff10f85d338d00e2577adc",
+    "sha512": "23689b8882446d6f8ff3c7dd41c96376478c2c580d70d6d35a827201521d3ca8dbefaa8ca395dd4eae35b59670e22e59573f86720b655b99d5bbf3c3e05a5680",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_jl7qyupf",
