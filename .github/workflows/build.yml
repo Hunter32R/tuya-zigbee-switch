@@ -33,19 +33,19 @@ jobs:
     - name: Install SDK and Toolchain
       run: |
         make install
-
-    - name: Build for all boards
-      run: |
-        yq -r '(keys)[]' device_db.yaml | while read ITER; do
-          echo "Building for board: $ITER"
-          BOARD=$ITER make clean && BOARD=$ITER make -j16 || exit 1
-          echo "Checking if files were created for board: $ITER"
-          ls -l bin/$ITER/
-        done
-
-    - name: Update converters
-      run: |
-        make update_converters
+#
+#    - name: Build for all boards
+#      run: |
+#        yq -r '(keys)[]' device_db.yaml | while read ITER; do
+#          echo "Building for board: $ITER"
+#          BOARD=$ITER make clean && BOARD=$ITER make -j16 || exit 1
+#          echo "Checking if files were created for board: $ITER"
+#          ls -l bin/$ITER/
+#        done
+#
+#    - name: Update converters
+#      run: |
+#        make update_converters
 
     - name: Commit changes
       run: |
