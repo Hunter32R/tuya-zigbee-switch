@@ -36,7 +36,7 @@ jobs:
 
     - name: Build firmware
       run: |
-        make
+        make_all.sh
 #
 #    - name: Build for all boards
 #      run: |
