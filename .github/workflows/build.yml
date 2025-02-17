@@ -33,6 +33,10 @@ jobs:
     - name: Install SDK and Toolchain
       run: |
         make install
+
+    - name: Build firmware
+      run: |
+        make
 #
 #    - name: Build for all boards
 #      run: |
