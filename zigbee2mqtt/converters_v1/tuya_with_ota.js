@@ -4,11 +4,11 @@ const ota = require("zigbee-herdsman-converters/lib/ota");
 const tuyaModels = [
     "TS0012_switch_module",
     "TS0011_switch_module",
+    "TS0004_switch_module_2",
     "TS0002_basic",
     "TS0002_limited",
     "TS0001_switch_module",
     "WHD02",
-    "TS0004_switch_module_2",
 ];
 
 const definitions = [];
