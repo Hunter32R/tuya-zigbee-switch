@@ -2,12 +2,12 @@ name: Build Firmware
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - action
-  pull_request:
-    branches:
-      - action
+#  push:
+#    branches:
+#      - main
+#  pull_request:
+#    branches:
+#      - main
 
 jobs:
   build:
