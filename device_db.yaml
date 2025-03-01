@@ -157,3 +157,13 @@ MOES_2_GANG_SWITCH_END_DEVICE:
   tuya_converter_model: TS0012
   tuya_manufacturer_names:
       - _TZ3000_18ejxno0
+HUNTER_4_GANG_SWITCH:
+  name: Hunter-4-gang
+  config_str: Hunter;4-Channel-Switch;LC4;SB5u;SD7u;SB7u;SC3u;RC0;RD2;RB4;RC2;IB1
+  device_type: router
+  tuya_manufacturer_id: 4417
+  tuya_image_type: 54179
+  firmware_image_type: 43511
+  tuya_converter_model: TS0004_switch_module_2
+  tuya_manufacturer_names:
+      - _TZ3000_18ejxno1
