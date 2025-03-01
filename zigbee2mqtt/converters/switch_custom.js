@@ -146,7 +146,7 @@ const definitions = [
         vendor: "Tuya-custom",
         description: "Custom switch (https://github.com/romasku/tuya-zigbee-switch)",
         extend: [
-            deviceEndpoints({ endpoints: {1: 1, 2: 2, 3: 3, 4: 4, "relay_0": 5, "relay_1": 6, "relay_2": 7, "relay_3": 8, "relay_4": 9, } }),
+            deviceEndpoints({ endpoints: {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, "relay_0": 6, "relay_1": 7, "relay_2": 8, "relay_3": 9, "relay_4": 10, } }),
             romasku.deviceConfig("device_config", "1"),
             onOff({ endpointNames: ["relay_0", "relay_1", "relay_2", "relay_3", "relay_4"] }),
             romasku.pressAction("switch_1_press_action", "1"),
@@ -173,6 +173,12 @@ const definitions = [
             romasku.relayMode("switch_4_relay_mode", "4"),
             romasku.relayIndex("switch_4_relay_index", "4", 5),
             romasku.longPressDuration("switch_4_long_press_duration", "4"),
+            romasku.pressAction("switch_5_press_action", "5"),
+            romasku.switchMode("switch_5_mode", "5"),
+            romasku.switchAction("switch_5_action_mode", "5"),
+            romasku.relayMode("switch_5_relay_mode", "5"),
+            romasku.relayIndex("switch_5_relay_index", "5", 5),
+            romasku.longPressDuration("switch_5_long_press_duration", "5"),
         ],
         meta: { multiEndpoint: true },
         configure: async (device, coordinatorEndpoint, logger) => {
@@ -180,12 +186,7 @@ const definitions = [
             await reporting.bind(device.getEndpoint(2), coordinatorEndpoint, ["genMultistateInput"]);
             await reporting.bind(device.getEndpoint(3), coordinatorEndpoint, ["genMultistateInput"]);
             await reporting.bind(device.getEndpoint(4), coordinatorEndpoint, ["genMultistateInput"]);
-            const endpoint5 = device.getEndpoint(5);
-            await reporting.onOff(endpoint5, {
-                min: 0,
-                max: constants.repInterval.MINUTE,
-                change: 1,
-            });
+            await reporting.bind(device.getEndpoint(5), coordinatorEndpoint, ["genMultistateInput"]);
             const endpoint6 = device.getEndpoint(6);
             await reporting.onOff(endpoint6, {
                 min: 0,
@@ -206,6 +207,12 @@ const definitions = [
             });
             const endpoint9 = device.getEndpoint(9);
             await reporting.onOff(endpoint9, {
+                min: 0,
+                max: constants.repInterval.MINUTE,
+                change: 1,
+            });
+            const endpoint10 = device.getEndpoint(10);
+            await reporting.onOff(endpoint10, {
                 min: 0,
                 max: constants.repInterval.MINUTE,
                 change: 1,
