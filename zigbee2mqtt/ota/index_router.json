@@ -368,11 +368,11 @@
   {
     "fileName": "1141-a9f7-01033007-tlc_switch.zigbee",
     "fileVersion": 16986119,
-    "fileSize": 160466,
-    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/795c0f9936add491e57051d162c5cb2ba6f89467/bin/HUNTER_4_GANG_SWITCH/1141-a9f7-01033007-tlc_switch.zigbee",
+    "fileSize": 160450,
+    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/refs/heads/main/bin/HUNTER_4_GANG_SWITCH/1141-a9f7-01033007-tlc_switch.zigbee",
     "imageType": 43511,
     "manufacturerCode": 4417,
-    "sha512": "65dd0dfe70edbf0bd00028e1900b02e346e73706555f98404c7ed133d21d6533cbfa372ff31f207ed88eac2965ebfa33d396ca3de568699560ce5f0d8a0ff3fc",
+    "sha512": "caa72b4bfacd809ed7faa01c4508c9f46de471523502dc8a62b0f78c4d775048b9b49c3ea2154fefb136a66d042f3e8dd61adf2dc1ada139db6d177e5f883489",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_18ejxno1",
@@ -382,11 +382,11 @@
   {
     "fileName": "1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 160466,
-    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/795c0f9936add491e57051d162c5cb2ba6f89467/bin/HUNTER_4_GANG_SWITCH/1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
+    "fileSize": 160450,
+    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/refs/heads/main/bin/HUNTER_4_GANG_SWITCH/1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
     "imageType": 54179,
     "manufacturerCode": 4417,
-    "sha512": "7f71a2ce4dc6f61186db14fadecc71ba8677ad3b95827c5debd3b2feb0b350d9375dc0b5f358a602406f2619995c5ae07dc9ef71c0d8bd2bf7dc8351ae3641cb",
+    "sha512": "ed717701e8d2054530fff58b3c292580dfa8149bf8d897895f30bb36f172422e64b76ea8bc4ae71cdb7fdc4832f7cf668daaa55a6cfc0955c5171f2d7419fa45",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_18ejxno1",
