@@ -140,7 +140,7 @@ const romasku = {
 const definitions = [
     {
         zigbeeModel: [
-            "Wall_Switch",
+            "Wall-Switch",
         ],
         model: "Wall_Switch",
         vendor: "Tuya-custom",
