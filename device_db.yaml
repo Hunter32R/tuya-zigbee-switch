@@ -1,6 +1,6 @@
 HUNTER_4_GANG_SWITCH:
   name: Wall_Switch
-  config_str: Hunter;Wall_Switch;LC4;SB5u;SD7u;SB7u;SC3u;RC0;RD2;RB4;RC2;IB1
+  config_str: Hunter;Wall-Switch;LC4;SB5u;SD7u;SB7u;SC3u;RC0;RD2;RB4;RC2;IB1
   device_type: router
   tuya_manufacturer_id: 4417
   tuya_image_type: 54179
