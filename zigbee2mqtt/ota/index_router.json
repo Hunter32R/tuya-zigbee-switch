@@ -2,11 +2,11 @@
   {
     "fileName": "1141-a9f7-0103300b-tlc_switch.zigbee",
     "fileVersion": 16986123,
-    "fileSize": 160450,
-    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/8f14bdf5762cd07b287502596fde672736e4abe7/bin/HUNTER_4_GANG_SWITCH/1141-a9f7-0103300b-tlc_switch.zigbee",
+    "fileSize": 160466,
+    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/refs/heads/main/bin/HUNTER_4_GANG_SWITCH/1141-a9f7-0103300b-tlc_switch.zigbee",
     "imageType": 43511,
     "manufacturerCode": 4417,
-    "sha512": "6bada0d717ded54c0dfe01dfe3523ea78b3793e0d99d779c726040cfb41414de236c637cf495ebaf2eb6f201a2c2496dacccca3db8566f619523fb05a2e963b4",
+    "sha512": "d4890ff236987634993ce2e6ae57887ebde6ca10181193587b08355c4f4efc24061ea1b0457fe134dfd434f7c99778a8ea9715cb9dda893bda034513929c13c4",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_18ejxno1",
@@ -16,11 +16,11 @@
   {
     "fileName": "1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 160450,
-    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/8f14bdf5762cd07b287502596fde672736e4abe7/bin/HUNTER_4_GANG_SWITCH/1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
+    "fileSize": 160466,
+    "url": "https://github.com/romasku/tuya-zigbee-switch/raw/refs/heads/main/bin/HUNTER_4_GANG_SWITCH/1141-d3a3-ffffffff-tlc_switch-from_tuya.zigbee",
     "imageType": 54179,
     "manufacturerCode": 4417,
-    "sha512": "d6fbe036f14a85a18c8d053574b0a4e808d1d6b63df9e2ac8a66235f6e39b3a257e83dd3f9a053bf9b51793247f4b949c37c02b11a192c8a05d2c68165d65888",
+    "sha512": "97f29fbbe5af5990c144b04c851a2b21a044f46d93c2941ceb3cb796cea9164105063cc4d4d6332d308388319404d1d97b08e2b1ae923f3cc0b15b786303b82d",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_18ejxno1",
