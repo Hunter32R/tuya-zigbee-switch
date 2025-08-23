@@ -14,24 +14,10 @@ const multiplePinoutsDescription = "WARNING! There are multiple known pinouts fo
 const ota = require("zigbee-herdsman-converters/lib/ota");
 
 const tuyaModels = [
-    "TS0001_switch_module",
-    "TS0002_basic",
-    "TS0002_limited",
-    "TS0003",
-    "TS0003_switch_3_gang",
-    "TS0003_switch_module_2",
-    "TS0004_switch_module",
     "TS0004_switch_module_2",
-    "TS0011_switch_module",
-    "TS0012",
-    "TS0012_switch_module",
-    "TS0013",
-    "TS0013_switch_module",
-    "WHD02",
 ];
 
 const tuyaMultiplePinoutsModels = [
-    "TS0004_switch_module_2",
 ];
 
 for (let definition of tuyaDefinitions) {
@@ -58,7 +44,6 @@ for (let definition of tuyaDefinitions) {
 }
 
 const moesModels = [
-    "ZS-EUB_1gang",
 ];
 
 const moesMultiplePinoutsModels = [
@@ -88,7 +73,6 @@ for (let definition of moesDefinitions) {
 }
 
 const avattoModels = [
-    "LZWSM16-1",
 ];
 
 const avattoMultiplePinoutsModels = [

@@ -102,35 +102,7 @@ class OnOffWithIndicatorCluster(CustomCluster, OnOff):
         )
 
 CONFIGS = [
-    "jl7qyupf;TS0012-custom;BA0f;LD7;SC2f;SC3f;RC0;RB4;",
-    "skueekg3;WHD02-custom;BB4u;LD3;SB5u;RB1;",
-    "01gpyda5;TS0002-custom;BD2u;LC2;SB5u;SB4u;RC4;RC3;",
-    "bvrlqyj7;TS0002-OXT-CUS;BD2u;LC0;SB4u;SB5u;RC2;RC3;",
-    "ji4araar;TS0011-custom;BA0f;LD7;SC2f;RC0;",
-    "tqlv4ug4;TS0001-custom;BD2u;LC0;SB4u;RC2;",
-    "zmy4lslw;TS0002-custom;BD2u;LC2;SB5u;RC4;SB4u;RC3;",
-    "4rbqgcuv;TS0001-AVB;BC2u;LD2i;SD3u;RC0;",
-    "mtnpt6ws;TS0002-AVB;BC2u;LD2i;SD3u;RC0;SD7u;RD4;",
-    "hbic3ka3;TS0003-AVB;BC2u;LD2i;SD3u;RC0;SD7u;RD4;SB6u;RC1;",
-    "5ajpkyq6;TS0004-AVB;BC2u;LD2i;SD3u;RC0;SD7u;RD4;SB6u;RC1;SA0u;RC4;",
-    "18ejxno0;Moes-2-gang;SB6u;SC4u;RB5;RB4;ID3;IC0;M;",
-    "f2slq5pj;Bseed-2-gang;SB6u;SA1u;RD3;RC0;IC2;IB4;M;",
-    "xk5udnd6;Bseed-2-gang-2;SB5u;SD4u;RC0B6;RA1D7;ID2;ID3;LC3;M;",
-    "ljhbw1c9;TS0012-avatto;BB4f;LB5;SC0f;SC3f;RC2;RC4;",
-    "46t1rvdu;WHD02-Aubess;BC4u;LD2;SB4u;RB5;",
-    "hhiodade;Moes-1-gang;SC1u;RB5;ID7;M;",
-    "qewo8dlz;Moes-3-gang;SB6u;RB5;ID3;SC1u;RB4;ID7;SC4u;RD2;IC0;M;",
-    "skueekg3;WHD02-custom;BB1u;LB4;SD2u;RD3;",
-    "skueekg3;WHD02-custom;BB1u;LB4;SD2u;RD3;",
-    "zmlunnhy;Zemi-2-gang;SC3U;SD2U;IB7;ID7;RB5C4;RC2D4;",
-    "hbxsdd6k;TS0011-avatto;BB4u;LB5;SC0u;RC2;",
-    "pfc7i3kt;TS0003-custom;BD3u;SC1u;SD7u;SC3u;RB5;RD4;RB4;",
-    "mhhxxjrs;TS0003-IHS;BC3u;LC2i;SD7u;RD2;SB4u;RD3;SB5u;RC0;",
-    "knoj8lpk;TS0004-IHS;BC3u;LC2i;SB5u;RD2;SB4u;RD3;SD7u;RC0;SD4u;RC1;",
-    "ypgri8yz;ZB08-custom;BA0u;LD7;SC2u;RC0;SC3u;RB4;SD2u;RB5;",
-    "ltt60asa;TS0004-Avv;BB5u;LC1;SB4u;RC0;SD2u;RC4;SC3u;RD4;SC2u;RD7;",
-    "mmkbptmx;TS0004-custom;BB6u;LB1;SC1u;RB7;SC2u;RB5;SC3u;RB4;SD2u;RC4;",
-    "avky2mvc;Avatto-3-touch;LB5;SD3u;RC2;SD7u;RC3;SD4u;RD2;M;",
+    "Hunter;Wall-Switch;LC4;SB5u;SD7u;SB7u;SC3u;RC0;RD2;RB4;RC2;IB1;M;",
 ]
 
 for config in CONFIGS:
