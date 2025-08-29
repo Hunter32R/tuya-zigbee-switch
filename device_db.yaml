@@ -5,7 +5,7 @@ HUNTER_4_GANG_SWITCH:
   tuya_image_type: 54179
   firmware_image_type: 43545
   stock_converter_model: TS0004_switch_module_2
-  tuya_manufacturer_names: _TZ3000_18ejxno1
+  tuya_manufacturer_name: _TZ3000_18ejxno1
   old_zb_models:
     - Wall_Switch
   zb_module: ZTU
