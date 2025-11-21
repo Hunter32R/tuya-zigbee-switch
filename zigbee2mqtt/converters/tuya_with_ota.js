@@ -14,6 +14,7 @@ const multiplePinoutsDescription = "WARNING! There are multiple known pinouts fo
 
 const tuyaModels = [
     "TS0004_switch_module_2",
+    "TS0004_switch_module_3",
 ];
 
 const tuyaMultiplePinoutsModels = [

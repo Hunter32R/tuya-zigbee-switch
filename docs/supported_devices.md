@@ -14,4 +14,5 @@ Also read:
 | Z2M device name | Vendor name | Zigbee Manufacturer | Type | Status | Issue |
 | --- | --- | --- | --- | --- | --- |
 | [TS0004_switch_module_2](https://www.zigbee2mqtt.io/devices/TS0004_switch_module_2.html) | TS0004  | _TZ3000_18ejxno1 | router | Supported |    -  | 
+| [TS0004_switch_module_3](https://www.zigbee2mqtt.io/devices/TS0004_switch_module_3.html) | TS0014  | _TZ3000_18ejxno2 | router | Supported |    -  | 
 

@@ -103,6 +103,7 @@ class OnOffWithIndicatorCluster(CustomCluster, OnOff):
 
 CONFIGS = [
     "Hunter;Wall-Switch;LC4;SB5u;SD7u;SB7u;SC3u;RC0;RD2;RB4;RC2;IB1;M;",
+    "Hunter;Hood-Switch;SB4u;SB7u;SB5u;SC0u;RD2;RD7;RB1;RA0;IC4;M;",
 ]
 
 for config in CONFIGS:

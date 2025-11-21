@@ -15,6 +15,7 @@ const ota = require("zigbee-herdsman-converters/lib/ota");
 
 const tuyaModels = [
     "TS0004_switch_module_2",
+    "TS0004_switch_module_3",
 ];
 
 const tuyaMultiplePinoutsModels = [
