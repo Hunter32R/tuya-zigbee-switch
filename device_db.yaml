@@ -11,3 +11,16 @@ HUNTER_4_GANG_SWITCH:
   zb_module: ZTU
   human_name: TS0004
   status: Supported
+RELAY_4_GANG_SWITCH:
+  config_str: Hunter;Hood-Switch;SB4u;SB7u;SB5u;SC0u;RD2;RD7;RB1;RA0;IC4;M;
+  device_type: router
+  tuya_manufacturer_id: 4417
+  tuya_image_type: 54179
+  firmware_image_type: 43545
+  stock_converter_model: TS0004_switch_module_3
+  tuya_manufacturer_name: _TZ3000_18ejxno2
+  old_zb_models:
+    - Hood_Switch
+  zb_module: ZTU
+  human_name: TS0014
+  status: Supported
