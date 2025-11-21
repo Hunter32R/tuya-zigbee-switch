@@ -12,7 +12,7 @@ HUNTER_4_GANG_SWITCH:
   human_name: TS0004
   status: Supported
 RELAY_4_GANG_SWITCH:
-  config_str: Hunter;Hood-Switch;SB4u;SB7u;SB5u;SC0u;RD2;RD7;RB1;RA0;IC4;M;
+  config_str: Hunter;Hood-Switch;SB5u;SB4u;SC0u;SB7u;RD7;RD2;RB1;RA0;IC4i;M;
   device_type: router
   tuya_manufacturer_id: 4417
   tuya_image_type: 54179
