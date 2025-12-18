@@ -33,7 +33,6 @@ all: simplicity_sdk commander slc-cli zap trust verify
 trust:
 	@echo "Trusting Silicon Labs SDK signature..."
 	$(TOOLS_DIR)/slc-cli/slc signature trust --sdk $(TOOLS_DIR)/simplicity_sdk
-	$(TOOLS_DIR)/slc-cli/slc signature trust --sdk $(SDK) -extpath $(abspath $(TOOLS_DIR)/spiflash_extension)
 
 # Help target
 help:
